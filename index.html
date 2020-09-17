@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteName</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="action.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      font-weight: bold;
+      color: white;
+    }
+
+    .bottom-footer {
+      background-color: #00cf35;
+      text-align: center;
+      height: 50px;
+    }
+
+    .top-footer a {
+      color: white;
+      padding: 10px;
+    }
+
+    .main-circle {
+      height: 100px;
+      width: 80px;
+      text-align: center;
+    }
+
+    .circle {
+      height: 80px;
+      width: 80px;
+      border-radius: 100px;
+      background-color: white;
+      color: #ff8a00;
+    }
+
+    .circle h1 {
+      text-align: center;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="slide-wrapper">
+    <div class="container">
+      <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <!-- first page -->
+          <div class="item active">
+            <div class="fill"
+              style=" background-color:#090a42;">
+              <!-- navbar -->
+              <div>
+                <nav class="navbar" style="background-color: none;">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" style="color: #ffffff" href="#">Logo</a>
+                    </div>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                          </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                      </div>
+                    </form>
+                  </div>
+                </nav>
+              </div>
+              <!-- end navbar -->
+              <!-- body -->
+              <div class="row" style="color: #ffffff; text-align: center; margin-top: 20rem">
+                <div class="col-md-offset-5 col-md-3">
+                  <h1>WebsiteName</h1>
+                  <h4>Come for what you love.<br>
+                    Stay for what you discover.</h4>
+                  <button class="btn btn-block"
+                    style='background-color: #00b8ff;height: 50px;font-size: 16px; font-weight: bold;'>Get
+                    Started</button>
+                  <button class="btn btn-block"
+                    style='color: black;height: 50px;font-size: 16px; font-weight: bold;'>Log In</button>
+                  <a href="#" style="margin-top: 50rem;color:#ffffff;">Here's what's trending</a>
+                </div>
+              </div>
+              <!-- end body -->
+
+              <!-- Footer -->
+              <div class="footer">
+                <div class="top-footer">
+                  <a href="">terms</a>
+                  <a href="">Privacy</a>
+                  <a href="">Jobs</a>
+                  <a href="">Support</a>
+                </div>
+                <div class="bottom-footer">
+                  <p style="padding-top: 10px;">What is Tumblr?</p>
+                </div>
+              </div>
+              <!-- end footer -->
+            </div>
+          </div>
+
+          <!-- Second Page -->
+          <div class="item">
+            <div class="fill" style="background-color:#00cf35;">
+              <!-- navbar -->
+              <div>
+                <nav class="navbar">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" style="color: #ffffff" href="#">Logo</a>
+                    </div>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                          </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                      </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#" style="color: #ffffff" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                      <li><a href="#" style="color: #ffffff"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <!-- end navbar -->
+              <!-- body -->
+              <div class="row" style="color: #ffffff; text-align: center; margin-top: 20rem">
+                <div class="col-md-offset-4 col-md-4">
+                  <img src="second-page.svg" alt="t image" width="220" height="200" style="opacity: 1;" />
+                  <h1>Tumblr is so easy to use that it’s hard to explain.</h1>
+                  <h4>We made it really, really simple for people to make a blog and put whatever they want on it.
+                    Stories, photos, GIFs, TV shows, links, quips, dumb jokes, smart jokes, Spotify tracks, mp3s,
+                    videos, fashion, art, deep stuff. Tumblr is 507 million different blogs, filled with literally
+                    whatever.</h4>
+                </div>
+              </div>
+              <!-- end body -->
+
+            </div>
+          </div>
+          <!-- Third Page -->
+          <div class="item">
+            <div class="fill" style="background-color:#ff8a00;">
+              <!-- navbar -->
+              <div>
+                <nav class="navbar">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" style="color: #ffffff" href="#">Logo</a>
+                    </div>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                          </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                      </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#" style="color: #ffffff"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                      <li><a href="#" style="color: #ffffff"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <!-- end navbar -->
+              <!-- body -->
+              <div class="row" style="color: #ffffff; text-align: center; margin-top: 20rem">
+                <div class="col-md-offset-4 col-md-4">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="main-circle">
+                        <div class="circle">
+                          <h1>Aa</h1>
+                        </div>
+                        <p style="padding-top: 10px;">Text</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="main-circle">
+                        <div class="circle">
+                          <h1>Aa</h1>
+                        </div>
+                        <p style="padding-top: 10px;">Text</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="main-circle">
+                        <div class="circle">
+                          <h1>Aa</h1>
+                        </div>
+                        <p style="padding-top: 10px;">Text</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="main-circle">
+                        <div class="circle">
+                          <h1>Aa</h1>
+                        </div>
+                        <p style="padding-top: 10px;">Text</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-offset-1 col-md-3">
+                      <div class="main-circle">
+                        <div class="circle">
+                          <h1>Aa</h1>
+                        </div>
+                        <p style="padding-top: 10px;">Text</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="main-circle">
+                        <div class="circle">
+                          <h1>Aa</h1>
+                        </div>
+                        <p style="padding-top: 10px;">Text</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="main-circle">
+                        <div class="circle">
+                          <h1>Aa</h1>
+                        </div>
+                        <p style="padding-top: 10px;">Text</p>
+                      </div>
+                    </div>
+                  </div>
+                  <h1>Seriously, put anything you want here.</h1>
+                  <h4>Seven post types to get you started. Your brain can do the rest. This thing is yours. Use it
+                    however you like.</h4>
+                </div>
+              </div>
+              <!-- end body -->
+
+            </div>
+          </div>
+          <!-- Forth Page -->
+          <div class="item">
+            <div class="fill" style="background-color:#e47794;">
+
+              <!-- navbar -->
+              <div>
+                <nav class="navbar">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" style="color: #ffffff" href="#">Logo</a>
+                    </div>
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                      <div class="input-group">
+                        <div class="input-group-btn">
+                          <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                          </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                      </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#" style="color: #ffffff"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                      <li><a href="#" style="color: #ffffff"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <!-- end navbar -->
+
+              <!-- body -->
+              <div class="row" style="color: #ffffff; text-align: center; margin-top: 20rem">
+                <div class="col-md-offset-4 col-md-4">
+                  <h1>Okay, it’s not actually hard to explain.</h1>
+                  <h4>We lied. But now you understand this thing. So come on in.</h4>
+                  <button class="btn"
+                    style='margin-top: 10px; width: 30rem; background-color: #00b8ff;height: 50px;font-size: 16px; font-weight: bold;'>Get
+                    Started</button>
+                  <button class="btn"
+                    style='margin-top: 10px; width: 30rem;color: black;height: 50px;font-size: 16px; font-weight: bold;'>Log
+                    In</button><br />
+                  <a href="#" style=" margin-top: 50rem;color:#ffffff;">Here's what's trending</a>
+                </div>
+              </div>
+              <!-- end body -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
