@@ -30,5 +30,5 @@ left: 0;
 margin-left: 2%;
 width:auto;
 }
-.carousel-indicators li{display:block; margin-bottom:5px; border:1px solid #00a199; }
-.carousel-indicators li.active{margin-bottom:5px; background:#00a199;}
+.carousel-indicators li{display:block; margin-bottom:5px; border:1px solid #ffffff; }
+.carousel-indicators li.active{margin-bottom:5px; background: #ffffff;;}
